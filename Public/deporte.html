@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="/css/deporte.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="/Public/deporte.html" class="logo">Tema</a>
+        <div class="nav-links">
+                    <ul>
+                        <li class="active"><a href="/index.html">Inicio</a></li>
+                        <li><a href="/PublicL/socios.html">Red</a></li>
+                        <li><a href="/Public/temas.html">FII</a></li>
+                        <li><a href="/Public/contacto.html">Contáctanos</a></li>
+                        <li><a href="/Public/personal.html">Sobre mi</a></li>
+                        <li><a href="/Public/deporte.html">Tema</a></li>
+                    </ul>
+        </div>
+        <img src="/images/menu.png" alt="menu hamburger" class="menu-hamburger">
+    </nav>
+    <header>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>Las auroras polares</h1><br>
+        <p>Es un fenómeno en forma de luminiscencia que se observa con más facilidad en el cielo nocturno, generalmente en zonas polares, aunque puede aparecer en otras zonas del mundo durante breves períodos.
+            <br>
+            <br>Las auroras se producen cuando el viento solar hace presión contra la magnetosfera (la zona del espacio controlada por el campo magnético de la Tierra) y empuja las partículas cargadas (los electrones) hacia la atmósfera a altas velocidades. Las partículas corren como niños en busca de partículas de oxígeno y nitrógeno, y transfieren su energía a los dos tipos de gases.
+            <br>
+            <br>El oxígeno y el nitrógeno no retienen esa energía, sino que la vuelven a perder en forma de fotones, que son diminutos destellos de luz. Cuando la cantidad de partículas que bombardean la atmósfera es suficiente, el oxígeno y el nitrógeno empiezan a emitir tanta luz que podemos verla desde la superficie.</p>
+            <br>
+            <h2>¿Por qué se producen los diferentes colores?</h2><br>
+        <p>Los gases de la atmósfera de la Tierra liberan luz de diferentes colores según el tipo de gas que sean y la altura a la que estén en la atmósfera.
+            <br>
+            <br>El color más común (un verde amarillo pálido) se produce cuando partículas cargadas de energía golpean moléculas de oxígeno a unos 95 km de altitud. El oxígeno en altitudes superiores (unos 320 km por encima de nosotros) produce las auroras de color rojo rubí.
+            <br>
+            <br>El nitrógeno en altitudes inferiores produce las auroras azules y, al chocar contra las partículas a una altitud superior, produce las de tonalidades violetas y moradas. Cuando se mezclan estas tonalidades en el cielo, se producen los tonos rosados y blancos.
+        </p>
+    </header>
+</body>
+<script>
+    const menuHamburger=document.querySelector(".menu-hamburger")
+    const navLinks=document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+</html>

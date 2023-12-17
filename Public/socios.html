@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="../css/socios.css">
+</head>
+<body>
+  
+  <nav class="navbar">
+    <a href="/Public/temas.html" class="logo">Inicio</a>
+    <div class="nav-links">
+                <ul>
+                    <li class="active"><a href="/index.html">Inicio</a></li>
+                    <li><a href="/Public/socios.html">Red</a></li>
+                    <li><a href="/Public/temas.html">FII</a></li>
+                    <li><a href="/Public/contacto.html">Contáctanos</a></li>
+                    <li><a href="/Public/personal.html">Sobre mi</a></li>
+                    <li><a href="/Public/deporte.html">Tema</a></li>
+                </ul>
+    </div>
+  </nav>
+<header>
+  <br>
+  <div class="container">
+    <div class="card__container">
+      <article class="card__article">
+        <img src="/images/rM.jpg" alt="image" class="card__img">
+        
+        <div class="card__data">
+          <span class="card__description">Página Web</span>
+          <h2 class="card__title">Luis Sánchez</h2>
+          <a href="https://luissanchezagulla.github.io/luisetecraft/" class="card__button">Pincha Aquí</a>
+        </div>
+      </article>
+      <article class="card__article">
+        <img src="/images/concepto-collage-html-css.jpg" alt="image" class="card__img">
+        <div class="card__data">
+          <span class="card__description">Página Web</span>
+          <h2 class="card__title">Alenjandro Arribas</h2>
+          <a href="https://alejandroarribascantero.github.io/noticieroArribas.github.io/index.html" class="card__button">Pincha Aquí</a>
+        </div>
+      </article>
+      <article class="card__article">
+        <img src="/images/sistema-html-concepto-sitios-web.jpg" alt="image" class="card__img">
+        
+        <div class="card__data">
+          <span class="card__description">Página Web</span>
+          <h2 class="card__title">Juan Sevillano</h2>
+          <a href="https://illaniit0.github.io/Webdefundamentos/" class="card__button">Pincha Aquí</a>
+        </div>
+      </article>
+      <article class="card__article">
+        <img src="/images/code-5113374_1280.jpg" alt="image" class="card__img">
+          
+        <div class="card__data">
+          <span class="card__description">Página Web</span>
+          <h2 class="card__title">David</h2>
+          <a href="https://davidsanez.github.io/webfinal/index.html" class="card__button">Pincha Aquí</a>
+        </div>
+      </article>
+      <article class="card__article">
+        <img src="/images/web-designer-2443766_1280.jpg" alt="image" class="card__img">
+              <div class="card__data">
+          <span class="card__description">Página Web</span>
+          <h2 class="card__title">Mario</h2>
+          <a href="https://mariohernandez13.github.io/Trabajo-fii-web/" class="card__button">Pincha Aquí</a>
+        </div>
+      </article>
+      <article class="card__article">
+        <img src="/images/premium_photo-1661877737564-3dfd7282efcb.jpg" alt="image" class="card__img">
+        
+        <div class="card__data">
+          <span class="card__description">Página Web</span>
+          <h2 class="card__title">Gonzalo Pérez</h2>
+          <a href="https://gnzl00.github.io/proyectowebFII/" class="card__button">Pincha Aquí</a>
+        </div>
+      </article>
+</header>
+</body>
+<script>
+const menuHamburger=document.querySelector(".menu-hamburger")
+const navLinks=document.querySelector(".nav-links")
+
+menuHamburger.addEventListener('click',()=>{
+navLinks.classList.toggle('mobile-menu')
+})
+</script>
+</html>

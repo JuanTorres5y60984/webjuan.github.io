@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="/css/personal.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="/Public/personal.html" class="logo">Sobre mi</a>
+        <div class="nav-links">
+                    <ul>
+                        <li class="active"><a href="/index.html">Inicio</a></li>
+                        <li><a href="/Public/socios.html">Red</a></li>
+                        <li><a href="/Public/temas.html">FII</a></li>
+                        <li><a href="/Public/contacto.html">Contáctanos</a></li>
+                        <li><a href="/Public/personal.html">Sobre mi</a></li>
+                        <li><a href="/Public/deporte.html">Tema</a></li>
+                    </ul>
+        </div>
+        <img src="/images/menu.png" alt="menu hamburger" class="menu-hamburger">
+    </nav>
+    <header>
+        <br><br><br><br><br> <h1>Juan Torres</h1><br><img src="/images/e95d0690-3f82-4dfc-b729-397b2c012268.JPG" class="img"> <img src="/images/IMG_4395.jpg" class="img"><br><p>Estudiante de Ingeniería Informática</p>
+        <br><br>
+            <p><i>Fecha de Nacimiento</i><br>05-12-2005</p><br>
+            <p><i>Edad</i><br>20 años</p><br>
+            <p><i>Estudios</i><br>Universidad Francisco de Vitoria</p><br>
+            <p><i>Correo</i><br><a href="https://www.microsoft.com/es-es/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook">JTM23@outlook.es</a></p><br>
+            <hr>
+                    <h3>¿Qué hace un ingeniero informático?</h3><br><p>Nos encargamos de brindar soluciones que involucran información digital para satisfacer las necesidades de los individuos y organizaciones basadas en:<br><ul><li>Hardware</li><li>Software</li></ul></p><bR>
+                    <br><h3>¿Qué aportan a la sociedad?</h3><br><p>Su objetivo es brindar a los ingenieros una formación más amplia que les permita<br>
+                        no solo idear soluciones técnicas a un problema , sino también leer la vida de las<br>
+                        personas, leer la sociedad para identificar los desafíos y las necesidades a las<br>
+                        que pueden responder con su profesión</p><br><br>
+                    <h3>Empresas clave en este sector</h3><p><br><ul><li><a href="https://www.microsoft.com/es-es/microsoft-365?rtc=1">Microsoft</a></li>
+                        <li><a href="https://www.oracle.com/es/">Oracle</a></li><li><a href="https://www.telefonica.com/es/nosotros/marcas/movistar/">Telefónica</a></li>
+                        <li><a href="https://www.amazon.es/ref=nav_logo">Amazon</a></li>
+                        <li><a href="https://www.google.com/?hl=es">Google</a></li></ul></p>  <br><br>
+                        <h3>Redes Sociales</h3><br>
+                    <p><a href="https://www.instagram.com/"><img src="/images/logoins.jpg" class="insta"></a><a href="https://twitter.com/?lang=es"><img src="/images/logotipotwitter.png" class="insta"></a></p>
+    </header>
+</body>
+<script>
+    const menuHamburger=document.querySelector(".menu-hamburger")
+    const navLinks=document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+</html>

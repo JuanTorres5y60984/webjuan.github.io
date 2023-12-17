@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="/index.html" class="logo">Inicio</a>
+        <div class="nav-links">
+                    <ul>
+                        <li class="active"><a href="/index.html">Inicio</a></li>
+                        <li><a href="/Public/socios.html">Red</a></li>
+                        <li><a href="/Public/temas.html">FII</a></li>
+                        <li><a href="/Public/contacto.html">Contáctanos</a></li>
+                        <li><a href="/Public/personal.html">Sobre mi</a></li>
+                        <li><a href="/Public/deporte.html">Tema</a></li>
+                    </ul>
+        </div>
+        <img src="/images/menu.png" alt="menu hamburger" class="menu-hamburger">
+    </nav>
+   
+    <header>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+       <h3>Esta página está dividida en 6 apartados</h3><br><br>
+       <h4>Inicio</h4>
+       <p>En en esta apartado se mostrará información de la página web</p><br>
+       <h4>Red</h4>
+       <p>Mostrará las páginas web de mis socios</p><br>
+       <h4>FII</h4>
+       <p>Esta es una sección de Fundamentos de la Ingeniería Informática que mostrará el programa de la asignatura y detalle sobre esta</p><br>
+       <h4>Contáctanos</h4>
+       <p>Incluye un formulario de contacto para contactar con nosotros</p><br>
+       <h4>Sobre mi</h4>
+       <p>Esta sección mostrará una pequeña escripción personal que incluirá una breve descripción sobre los temas 2 y 3 de fundamentos, un currículum vitae, dos fotografías y algunos enlaces a cuentas redes</p><br>
+       <h4>Tema</h4>
+       <p>Mostrará información sobre un tema</p>
+    </header>
+</body>
+<script>
+    const menuHamburger=document.querySelector(".menu-hamburger")
+    const navLinks=document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+
+
+</html>
