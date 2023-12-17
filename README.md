@@ -1,1 +1,6 @@
-# webjuan.github.io
+# github.io
+Nombre: Juan Torres Mena
+Curso: 1ºB
+Descripción: En la página de inicio he hecho un menú que si reduces el tamaño de la pantalla,  cambia el menu  de una tira a un icono,y lugo aparece un texto sobre de lo que va la página web. En la parte de red he hecho una tira en forma de rectángulo que cuando pasas el cursor por ahí se despliega un texto y si haces más pequeña la página, la imágenes se agruparán. En la sección de contacto he hecho un formulario que en caso de que no rellenes unas de las celdas obligatorias, te pedirá que lo hagas. En la parte de fundamentos he puesto un texto sobre la planificación ,en la parte sobre mi, he hecho que las fotos se agrupen y en la parte de tema he puesto una imágen de fondo con texto sobre las auroras.
+Problemas: Las rutas de los enlaces css, el menú desplegable, las imágenes de fondo, el diseño
+Conclusiones: Durante la realización he encontrado con varios obstáculos que me han provocado muchos dolores de cabeza pero a pesar de todo he podido solventarlos gracias a la dedicación y esfuerzo que le he puesto.  Gracias a este trabajo he descubierto como iniciarme en el mundo de las paginas web. He aprendido a usar lenguajes como css y html que nunca habia usado y me a parecido muy interesante. A partir de ahora entrare en una pagina web y no la vere igual que la veia antes. Despues de tanto sufrimiento he aprendido a valorar todos las profesiones que tenia infravaloradas como el de diseño web y de los que se encargan de ello.
